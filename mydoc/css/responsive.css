@@ -1,0 +1,20 @@
+@media screen and (max-width:600px) {
+    nav{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .btn1{
+        display: none;
+    }
+    nav{
+        height: 12vh;
+    }
+    nav ul{
+        padding: 10px 0px;
+    }
+    nav img{
+        padding-top: 5px;
+    }
+}
