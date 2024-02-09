@@ -12,7 +12,6 @@
     display: flex;
 }
 
-
 /* header styling */
 
 
@@ -274,14 +273,14 @@ nav img{
     padding-top: 50px;
 }
 .testominals{
-    font-size: 60px;
+    font-size: 42px;
     text-align: center;
     color: var(--main-bg-color);
     font-weight: bold;
 }
 .sec5-card{
     border-left: 5px solid var(--main-bg-color);
-    width: 35vw;
+    width: 40vw;
     height: 23vh;
     margin: 25px 5px -4px 5px; 
     background-color: white;
@@ -335,6 +334,7 @@ nav img{
 .sec6-line2{
     font-weight: bold;
     color: var(--main-bg-color);
+    text-align: center;
 }
 .section6 button{
     margin: 10px 0px;
@@ -386,6 +386,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .heart{
     color: red;
