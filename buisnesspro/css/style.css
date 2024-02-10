@@ -1,0 +1,393 @@
+:root {
+    --main-color: #211C6A;
+    --main-color-2: #59B4C3
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--main-color-2);
+}
+
+/* header styling */
+
+
+nav{
+    height:12vh;
+    background-color: var(--main-color) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+nav ul li{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: #59B4C3;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    padding: 0px 40px;
+}
+.logo img{
+    width: 105px;
+}
+.logo{
+    padding: 0px 30px;
+}
+
+/* section1 styling starts from here */
+
+.section1{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://img.freepik.com/premium-photo/financial-stock-market-graph-abstract-background_28943-540.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.sec1-line2{
+    padding: 5px 0px 10px 0px;
+    color: white;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.btn{
+    background-color: white;
+    color: var(--main-color);
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid var(--main-color);
+}
+.btn:hover{
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+}
+
+/* section2 styling from here */
+
+
+.section2{
+    height: 60vh;
+    padding-top: 70px;
+
+}
+
+.line1{
+    color: var(--main-color);
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.line2{
+    color: var(--main-color);
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.sec2-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+    height: 26vh;
+    width: 20vw;
+    border: 2px solid var(--main-color);
+    border-radius: 17px;
+}
+.lin1{
+    color: var(--main-color);
+    font-weight: bold;
+    padding-top: 7px;
+    font-size: 21px;
+}
+.lin2{
+    color:var(--main-color);
+}
+.icon{
+    height: 66px;
+    width: 72px;
+    border-radius: 105px;
+    background-image: url(https://img.freepik.com/free-vector/quill-pen-logo-template_23-2149852432.jpg);   
+    background-position: center;
+    background-size: cover;
+}
+.chnge{
+    background-image: url(https://cdn.kwork.com/files/portfolio/t3/57/a5661366d9ccf45d3e705bee4e1b9fa215defd28-1668034457.jpg);
+    background-position: center;
+}
+.chnge2{
+    background-image: url(https://img.freepik.com/premium-vector/quill-pen-logo-design-template_23-2149813684.jpg);
+    background-position: center;
+}
+
+/* section3 styling from here */
+
+.section3{
+    padding-top: 100px;
+}
+.sec3-cards{
+    padding-top: 40px;
+}
+
+.sec3-card{
+    height: 38vh;
+    width: 27vw;
+    border: 2px solid var(--main-color);
+    border-radius: 17px;
+}
+.sec3-card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 17px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* section4 styling from here */
+
+
+.section4{
+    padding-top: 100px;
+    height: 50vh;
+}
+.sec4-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.sec4-card{
+    height: 20vh;
+    border: 2px solid var(--main-color);
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 17px;
+}
+.sec4-lin1{
+    color: var(--main-color);
+    font-size: 4vw;
+    font-weight: bold;
+}
+.sec4-lin2{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+
+/* section5 styling from here */
+
+.section5{
+    padding-top: 10px;
+}
+.team-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+.team-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    width: 20vw;
+    border-radius: 17px;
+    padding: 20px 10px;
+    color: var(--main-color);
+}
+.prof{
+    height: 100px;
+    width: 106px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.prof img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.prof-lin1{
+    padding-top: 10px;
+    font-weight: bold;
+    color: var(--main-color);
+    font-size: 21px;
+}
+.prof-lin2{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.prof-lin3{
+    padding-top: 10px;
+}
+
+/* section6 styling from here */
+
+.section6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    margin: 100px 0px 40px 0px;
+    padding: 0px 20px;
+    background-image: url(https://wallpapers.com/images/hd/blue-squares-linkedin-cover-aile6d8sf0rdot7h.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+.sec6-lin1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.sec6-lin2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 3px;
+}
+.sec6-lin3{
+    color: white;
+    padding-top: 8px;
+}
+.sec6-btnn{
+    margin-top: 10px;
+}
+
+/* section7 styling form here */
+
+.section7{
+    padding-top: 70px;
+}
+.custmr-cards{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.custm-card{
+    width: 22vw;
+    height: 30vh;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);;
+    border-radius: 17px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, var(--main-color) 20%, transparent 20%);
+}
+.custm-img{
+        border: 1px solid;
+        width: 61px;
+        height: 50px;
+        border-radius: 100%;
+}
+.custm-img img{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+.sec7-lin1{
+    padding-top: 5px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+.sec7-lin2{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.sec7-lin3{
+    padding-top: 6px;
+}
+
+/* footer styling from here */
+
+
+footer{
+    background-color: var(--main-color);
+    margin-top: 50px;
+    color: white;
+}
+footer ul li{
+    list-style:none;
+    padding-top: 10px;
+}
+footer ul li:before{
+    content: "➤";
+
+}
+.content{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.col{
+    width: 22vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.list-head{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.last{
+    text-align: center;
+    padding: 10px;
+}
+.heart{
+    color: red;
+}
+.creator{
+    padding-top: 5px;
+}
