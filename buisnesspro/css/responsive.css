@@ -1,0 +1,98 @@
+@media screen and (max-width:900px) {
+    .section1 {
+        padding: 17px;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: unset;
+        height: 13vh;
+    }
+
+    .logo {
+        padding-top: 10px;
+    }
+
+    nav ul {
+        gap: 25px;
+    }
+
+    nav ul li {
+        padding: 10px 0px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .section2 {
+        height: auto;
+    }
+
+    .sec2-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        height: 30vh;
+        width: 60vw;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .sec3-card {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .section4 {
+        height: auto;
+    }
+
+    .sec4-cards {
+        flex-direction: column;
+    }
+
+    .sec4-card {
+        height: 20vh;
+        width: 35vw;
+    }
+
+    .sec4-lin1 {
+        font-size: 30px;
+    }
+
+    .section5 {
+        padding-top: 100px;
+    }
+
+
+    .team-cards {
+        flex-direction: column;
+    }
+
+    .team-card {
+        width: 70vw;
+        height: 30vh;
+    }
+
+    .custmr-cards {
+        flex-direction: column;
+    }
+
+    .custm-card {
+        width: 70vw;
+        height: 30vh;
+    }
+
+    .content {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
