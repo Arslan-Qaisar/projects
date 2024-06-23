@@ -1,0 +1,22 @@
+@media screen and (max-width:600px) {
+    nav ul{
+        justify-content: center;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 70vw;
+    }
+    .width{
+        width: 90vw;
+    }
+    .imge{
+        width: 70vw;
+        height: 35vh;
+    }
+    .minicard{
+        width: 70vw;
+    }
+}
